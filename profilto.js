@@ -57,7 +57,22 @@ temp.addEventListener('click', () => {
     window.location.href = "https://hosseinkhashaypour.github.io/temp/"
 })
 
+let digikala = document.getElementById('digikala');
+digikala.addEventListener('click' , ()=>{
+    window.location.href = "https://hosseinkhashaypour.github.io/newkala/";
+})
+
 let contact = document.getElementById("contact")
 contact.addEventListener('click' , ()=>{
     window.location.href = "contact.html"
+})
+
+let simpleShop = document.getElementById('simpleShop');
+simpleShop.addEventListener('click' , ()=>{
+    window.location.href = 'https://hosseinkhashaypour.github.io/frontendmentor3/'
+})
+
+let advice = document.getElementById('advice');
+advice.addEventListener('click' , ()=>{
+    window.location.href = 'https://hosseinkhashaypour.github.io/advice/'
 })
